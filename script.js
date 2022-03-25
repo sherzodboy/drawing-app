@@ -3,7 +3,7 @@
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
-let size = 20;
+let size = 10;
 let isPressed = false;
 let color = "black";
 let x;
@@ -53,6 +53,4 @@ function drawLine(x1, y1, x2, y2) {
 }
 
 const clear = document.querySelector("#clear");
-clear.addEventListener("click", () => {
-  canvas.style.backgroundColor = "#fff";
-});
+clear.addEventListener("click", () => {});
